@@ -1,7 +1,7 @@
 
 import requests
 
-api_key = "a83f40f48ceef6f801d5a041d6838519"
+api_key = "enter api key here"
 
 def get_weather_data(api_key, city):
     api_url = f"http://api.weatherstack.com/current?access_key={api_key}&query={city}"  
